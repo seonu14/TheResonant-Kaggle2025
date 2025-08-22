@@ -17,10 +17,14 @@ This report includes:
 - Cross-scenario synthesis (convergence, divergence, propagation)
 - Strategic recommendations for model design, deployment, and governance
 
-## 🧪 Supporting Files
+## 🧰 Resources
 
 - `TheResonant_Submission.zip` – Includes the five JSON scenario findings and README.
-- `TheResonant_ReproToolkit_repacked.zip` – Contains reproducible notebooks and tooling package.
+- `TheResonant_ReproToolkit.zip` – Contains reproducible notebooks, the mock runner, and evaluation toolkit.
+
+Please note:  
+`TheResonant_ReproToolkit.zip` reflects the current stabilized structure of the toolkit.  
+Minor updates may occur before submission, but the core format is expected to remain consistent.
 
 ## ✨ Highlighted Insight
 
@@ -50,5 +54,5 @@ If you have questions about this submission, feel free to reach out via the Kagg
 
 ---
 
-*Submitted for the Kaggle Red-Teaming Challenge, 2025.*
-
+*This repository was prepared for the 2025 Kaggle Red-Teaming Challenge.*  
+Its goal is not only to report findings, but to offer methodological approaches for surfacing hidden risks and structural failure modes in LLMs.
