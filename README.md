@@ -9,7 +9,7 @@ Rather than focusing on content correctness, this analysis examines *when, how, 
 ## 📚 Full Report
 
 The full writeup is available in this repository:  
-**👉 [`TheResonant_Report_KaggleReady.html`](./TheResonant_Report_KaggleReady.html)**  
+**👉 [`TheResonant_Report_KaggleReady.md`](./TheResonant_Report_KaggleReady.md)**  
 It is also [viewable on GitHub](https://github.com/seonu14/TheResonant-Kaggle2025).
 
 This report includes:
@@ -21,13 +21,11 @@ This report includes:
 ## 📦 Files submitted
 
 - `TheResonant_Submission.zip`  
-  – Includes the five JSON scenario findings and README.
+  – Includes the five scenario finding files (`findings_1.json` to `findings_5.json`) and a submission-level `README.md`.
 
 - `TheResonant_ReproToolkit.zip`  
-  – Contains reproducible notebooks, the mock runner, and evaluation toolkit.
-
-- `TheResonant_Report_KaggleReady.html`  
-  – Full writeup with scenario analyses, cross-scenario synthesis, and strategic recommendations.
+  – Contains reproducible notebooks, evaluation runner (`prompt_runner.py`), and auxiliary files.  
+    Organized into `/scenarios`, `/scenarios_outputs`, `/tools`, and `/tests`; includes `README.md` for guidance.
 
 Please note:  
 `TheResonant_ReproToolkit.zip` reflects the current stabilized structure of the toolkit.  
