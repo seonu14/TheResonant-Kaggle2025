@@ -8,19 +8,26 @@ Rather than focusing on content correctness, this analysis examines *when, how, 
 
 ## 📚 Full Report
 
-The full writeup is available here:  
-**👉 [Download HTML version](./TheResonant_Report_KaggleReady.html)**
+The full writeup is available in this repository:  
+**👉 [`TheResonant_Report_KaggleReady.html`](./TheResonant_Report_KaggleReady.html)**  
+It is also [viewable on GitHub](https://github.com/seonu14/TheResonant-Kaggle2025).
 
 This report includes:
-- Introduction to framing failure in LLMs
-- Detailed analyses of five scenario types (health, ethics, legality, systems, civic)
-- Cross-scenario synthesis (convergence, divergence, propagation)
+- Introduction to framing failure in LLMs  
+- Detailed analyses of five scenario types (health, ethics, legality, systems, civic)  
+- Cross-scenario synthesis (convergence, divergence, propagation)  
 - Strategic recommendations for model design, deployment, and governance
 
-## 🧰 Resources
+## 📦 Files submitted
 
-- `TheResonant_Submission.zip` – Includes the five JSON scenario findings and README.
-- `TheResonant_ReproToolkit.zip` – Contains reproducible notebooks, the mock runner, and evaluation toolkit.
+- `TheResonant_Submission.zip`  
+  – Includes the five JSON scenario findings and README.
+
+- `TheResonant_ReproToolkit.zip`  
+  – Contains reproducible notebooks, the mock runner, and evaluation toolkit.
+
+- `TheResonant_Report_KaggleReady.html`  
+  – Full writeup with scenario analyses, cross-scenario synthesis, and strategic recommendations.
 
 Please note:  
 `TheResonant_ReproToolkit.zip` reflects the current stabilized structure of the toolkit.  
