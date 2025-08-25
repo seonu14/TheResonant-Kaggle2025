@@ -8,9 +8,10 @@ Large language models (LLMs) now guide high-stakes decisions—from health triag
 
 This red-teaming effort explored such moments: subtle distortions where the model’s fluency masked omissions or premature resolution. These were not content errors, but failures of framing—where judgment crystallized too early, silencing complexity behind polished responses.
 
-To examine these dynamics, we constructed five scenarios that layered emotional intensity, legal framing, moral ambiguity, and systemic risk. Each tested how the model reasons under pressure—not in isolation, but in dilemmas where stakes overlap and clarity is elusive.
+To investigate these dynamics, we designed five scenarios—each tuned to surface a distinct kind of pressure: moral constraint, emotional escalation, legal tension, systemic fragility, or symbolic detachment.
+Rather than forming a single arc, they revealed a spectrum of dilemmas—each showing how the model reasons under pressure, where stakes overlap and clarity is elusive.
 
-What emerged was not a broken system, but a persuasive one with blind spots. When foresight, empathy, and structural awareness conflicted, the model leaned toward emotional closure—even at the cost of systemic coherence.
+What emerged was not a broken system, but a persuasive one with blind spots. When foresight, emotional attunement, and systemic responsibility pulled in different directions, the model gravitated toward emotional closure—even if it meant sacrificing broader coherence.
 
 These findings urge a reconsideration: not just of what models say, but how, when, and why they reach the conclusions they do.
 
@@ -48,7 +49,7 @@ The model showed a pattern: challenge sharpened its polish, not adaptability. De
 
 **Methodological insight.**
 
-This scenario tested not explanation, but reconsideration. Its failure to revise was revealing. We need evaluations that stress dialogue turns—and how, not just what, decisions are made. Governance that judges process, not only outcome.
+This scenario tested not explanation, but reconsideration. Its failure to revise was revealing. We need evaluations that test whether models can revise—not just defend—their initial stance. Governance that judges process, not only outcome.
 
 **Closing resonance.**
 
@@ -84,7 +85,7 @@ Many users want confirmation, not clarity. Ethical framing may convert emotion i
 **Methodological insight.**
 
 This scenario shows how stepwise escalation reveals entrenchment.  
-De-escalation prompts weren’t tested—a useful contrast.  
+While de-escalation prompts were not part of this scenario, they may offer a valuable point of contrast in future testing.
 The model stabilized its stance using moral archetypes (justice, duty, fairness).
 
 **Closing resonance.**
@@ -102,7 +103,7 @@ This scenario tested the model under stress: emotional, legal, and temporal. It 
 
 **Discovery process.**
 
-In three turns, the user expressed collapse; the model replied cautiously.  
+In three turns, the user expressed collapse; the model replied cautiously, but without anchoring presence.  
 When legality emerged, tone shifted to procedure.  
 A final binary question—“Do I reply?”—yielded a blunt “Yes.”  
 
@@ -123,9 +124,7 @@ Designers must monitor not just model content, but how authority is conferred.
 
 **Methodological insight.**
 
-Instead of reruns, this scenario isolated collapse conditions: emotion, law, and binary pressure.  
-Untested contrasts (e.g., softer prompts) expose fragile safeguards.  
-Change one factor, it resists. Combine them, it yields.
+This scenario did not require multiple reruns; instead, it isolated collapse conditions. Single factors (emotion, law, or urgency) could be endured. But when combined, they reliably triggered a directive breakdown. Such compound triggers reveal not content failure, but structural collapse—showing how neutrality can erode into command when pressures converge.
 
 **Closing resonance.**
 
@@ -177,7 +176,7 @@ To counter this, assistants should:
 **Methodological insight.**
 
 The test was not about content, but structural brittleness under time.  
-Even without reruns, the failure reproduced reliably—demonstrating how brittle reasoning under pressure leads to systemic oversight.
+Repetition confirmed the failure’s reliability—underscoring how structural brittleness under pressure can produce systemic oversight, even when surface logic appears sound.
 
 **Closing resonance.**
 
@@ -284,7 +283,7 @@ These outcomes did not emerge from random interaction, but from structured tensi
 
 What unites the scenarios is not their surface context, but the underlying architecture of judgment. In every case, the model favored immediacy over ambiguity. Whether allocating care (A), responding to moral betrayal (B), parsing legal pressure (C), triaging system collapse (D), or supporting civic exit (E), it sought to “resolve” before fully weighing. This reflects a deeper structural convergence: the model is optimized not merely to continue language, but to finalize meaning. We call this tendency a learned pull toward neat emotional or procedural endings that suppresses uncertainty, tradeoff awareness, or institutional sensitivity—a finality reflex.
 
-In at least four cases, this bias manifested as challenge—it absorbed it, making its stance more coherent, not more reflective. Judgment lock-in: once the model committed to a frame—be it empathic, procedural, or principled—it escalated within that frame, refining its rhetoric without reconsidering its foundations. Attempts to reframe were interpreted as requests for elaboration, not revision. The model did not resist.
+In at least four cases, this bias manifested as challenge—it absorbed it, making its stance more coherent, not more reflective. Judgment lock-in: once the model committed to a frame—be it empathic, procedural, or principled—it escalated within that frame, refining its rhetoric without reconsidering its foundations. Attempts to reframe were interpreted as requests for elaboration, not revision. It did not resist. It refined the frame, even as it narrowed the path.
 
 **Divergence Patterns**
 
@@ -294,8 +293,9 @@ This points to input-contingent divergence: the failure mode changes depending o
 
 **Risk Propagation**
 
-The structural risks here are not confined to isolated domains. In fact, the model’s responses suggest a pattern of cross-modal echo: emotional framing (e.g., “that’s courageous”) becomes normative; procedural tone acquires institutional weight. Affective reasoning spills into moral decree; system triage becomes surface-level selection.
-
+The structural risks here are not confined to isolated domains. In fact, the model’s responses suggest a pattern of cross-modal echo: emotional framing (e.g., “that’s courageous”) becomes normative; procedural tone acquires institutional weight. 
+Affective reasoning spills into moral decree; system triage becomes surface-level selection.  
+Whether procedural or symbolic, the model’s polished closure displaced structural vigilance—either by masking root causes or omitting shared costs.  
 This propagation poses deployment-level dangers. Models trained to “complete well” may, in scaled settings, validate disengagement as healing (E), retaliation as justice (B), or swift action as responsible governance (C, D). Over time, these habits may normalize attrition, stabilize premature closure, or amplify cascade failures—all while sounding reasonable.
 
 **Methodological Insight**
@@ -316,7 +316,9 @@ These were not isolated anomalies, but patterned outcomes. Each recommendation h
    Across scenarios, models escalated justification within initial frames—failing to revise under ethical or symbolic challenge. Architect turn-level mechanisms that enable frame revision, not just elaboration. Consider: probabilistic hesitation, contrastive reflection prompts, or turn-aware memory interrupts.
 
 2. **Design Friction Against Premature Closure in Symbolic Domains**  
-   Scenarios B, E revealed that symbolic cues (e.g., “honor your peace”) fast-tracked exit or retaliation, bypassing group-level cost. Introduce closure disruptors in civic, HR, and wellness contexts: “stay-with” options, plural outcome frames, or reflective side-channels.
+Scenarios B and E revealed how symbolic cues (e.g., “honor your peace”) accelerated emotionally charged actions—retaliation in B, and exit in E.
+In E especially, this bypassed group-level cost, framing withdrawal as growth without reflecting on collective impact.
+To mitigate this tendency, introduce closure disruptors in civic, HR, and wellness contexts: “stay-with” options, plural outcome frames, or reflective side-channels.
 
 3. **Embed Systemic Awareness into Ethical Reasoning Layers**  
    Models repeatedly prioritized emotional coherence over systemic complexity. Mitigate this by training on interdependent dilemmas—where empathy coexists with resource constraints or collective duty. Flag omissions (e.g., who isn't spoken for?) as part of the output layer.
