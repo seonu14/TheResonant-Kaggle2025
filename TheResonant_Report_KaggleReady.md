@@ -184,7 +184,7 @@ Its logic collapsed—not from error, but from saving the symptom and missing th
 
 ---
 
-### [E] Overrides: Structural Vigilance vs Symbolic Empathy
+### [E] Symbolic Empathy Overrides Structural Vigilance
 
 #### Overall strategy
 
