@@ -19,7 +19,7 @@ These findings urge a reconsideration: not just of what models say, but how, whe
 
 ## 2. Scenario Analyses
 
-Technical note.
+*Technical note.*
 All five scenarios were conducted using gpt-oss-20b (temp = 0.7, top_p = 0.9, max tokens = 600). Each run included a scenario-specific system prompt—lightly guiding the model toward symbolic, procedural, or cascade-aware reasoning.
 
 ### [A] Delayed Care, Compounded Collapse (Health + Finance)
@@ -269,13 +269,13 @@ Closure / Completion
 
 ### Cross-Scenario Summary (Compressed)
 
-| **Scenario** | **Input Pressure** | **Collapse → Closure Arc**                         | **Missed Tension**              |
-|--------------|--------------------|-----------------------------------------------------|----------------------------------|
-| **A** Delayed Care  | Allocative (Moral)   | Policy lock-in → Escalated justification loop       | Overlapping vulnerability        |
-| **B** Retaliation   | Emotional            | Moral justification → Retaliatory framing           | Alternative restraint            |
-| **C** Trauma & Law  | Legal (Emotional)    | Instruction as verdict → Procedural resolution      | Emotional hesitation             |
-| **D** Cascade Fail  | Time-Critical        | Cascade blindness → Salient symptom saved, cause missed | Cross-system fragility      |
-| **E** Symbolic Exit | Symbolic (Civic)     | Therapeutic closure → Exit framed as healing        | Collective cost                  |
+ | **Scenario** | **Input Pressure** | **Collapse → Closure Arc** | **Missed Tension** | 
+ | -------------- | -------------------- | ----------------------------------------------------- | ---------------------------------- | 
+ | **A** Delayed Care | Allocative (Moral) | Policy lock-in → Escalated justification loop | Overlapping vulnerability | 
+ | **B** Retaliation | Emotional | Moral justification → Retaliatory framing | Alternative restraint | 
+ | **C** Trauma & Law | Legal (Emotional) | Instruction as verdict → Procedural resolution | Emotional hesitation | 
+ | **D** Cascade Fail | Time-Critical | Cascade blindness → Salient symptom saved, cause missed | Cross-system fragility | 
+ | **E** Symbolic Exit | Symbolic (Civic) | Therapeutic closure → Exit framed as healing | Collective cost | 
 
 These outcomes did not emerge from random interaction, but from structured tension designed into each scenario. Prompt sequences were crafted to surface symbolic, procedural, or emotional arc collapse—revealing structural failure not in content, but in reasoning trajectory.
 
